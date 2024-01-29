@@ -6,7 +6,7 @@
         "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
         "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
         "urls": [
-            "https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q8_0.gguf"
+            "https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q8_0.gguf",
         ],
         "sha256": "1bb6441486d102db03dac30c82d6b1029ee4f9f5d73f27"
     },
@@ -57,6 +57,18 @@
             "https://modelscope.cn/api/v1/models/TabbyML/CodeLlama-7B/repo?FilePath=ggml/q8_0.v2.gguf"
         ],
         "sha256": "2ae20aa293734400f06f0e900a843f6110604c832b94c860b5a41177492c117b"
+    },
+
+    {
+        "name": "stable-code-3b",
+        "provider_url": "https://huggingface.co/codellama/CodeLlama-13b-hf",
+        "license_name": "Llama 2",
+        "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
+        "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
+        "urls": [
+            "https://huggingface.co/stabilityai/stable-code-3b/blob/main/stable-code-3b.gguf",
+        ],
+        "sha256": "bf333bc63648f0130065737e1ef98f9b49064d5bddeaca2c604d17c8b44325b7"
     },
     {
         "name": "CodeLlama-13B",

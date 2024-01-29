@@ -66,7 +66,7 @@
         "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
         "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
         "urls": [
-            "https://huggingface.co/stabilityai/stable-code-3b/blob/main/stable-code-3b.gguf",
+            "https://huggingface.co/stabilityai/stable-code-3b/blob/main/stable-code-3b.gguf"
         ],
         "sha256": "bf333bc63648f0130065737e1ef98f9b49064d5bddeaca2c604d17c8b44325b7"
     },
